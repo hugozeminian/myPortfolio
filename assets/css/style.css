@@ -717,6 +717,7 @@ main{
         overflow: hidden;
         background-color: var(--color2);
         position: fixed;
+        left: 0;
         width: 100%;
     }
 
