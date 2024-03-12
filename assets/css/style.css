@@ -424,6 +424,11 @@ main {
   min-height: 50vh;
 }
 
+.summary-table th:nth-child(1),
+.summary-table td:nth-child(1) {
+  width: 120px;
+}
+
 .table-sticky {
   position: sticky;
   top: 0px;
@@ -609,7 +614,7 @@ main {
   width: 100%;
   display: block;
   border-radius: 10px;
-  border: var(--color_main2) solid; 
+  border: var(--color_main2) solid;
 }
 
 .carousel__button {
